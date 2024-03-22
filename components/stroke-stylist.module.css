@@ -1,0 +1,186 @@
+.worldsLargest {
+  color: var(--color-mediumpurple-200);
+}
+.joinOurWorldsContainer {
+  margin: 0;
+  width: 762px;
+  height: 144px;
+  position: relative;
+  font-size: inherit;
+  line-height: 80px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.startLearningBy {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  line-height: 32px;
+  font-family: var(--text-lg-semibold);
+}
+.layerLayouter {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-40xl);
+  min-width: 629px;
+  max-width: 100%;
+}
+.frameChild {
+  height: 80px;
+  width: 380px;
+  position: relative;
+  border-radius: var(--br-29xl);
+  background-color: var(--color-crimson-100);
+  display: none;
+  max-width: 100%;
+}
+.joinAsInstructor {
+  position: relative;
+  font-size: var(--font-size-3xl);
+  line-height: 22px;
+  font-weight: 500;
+  font-family: var(--text-lg-semibold);
+  color: var(--gray-white);
+  text-align: left;
+  z-index: 1;
+}
+.rectangleParent {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-12xl) var(--padding-xl) var(--padding-11xl);
+  background-color: var(--color-crimson-100);
+  align-self: stretch;
+  border-radius: var(--br-29xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+  white-space: nowrap;
+  max-width: 100%;
+}
+.rectangleParent:hover {
+  background-color: var(--color-crimson-200);
+}
+.frameItem {
+  height: 80px;
+  width: 380px;
+  position: relative;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-mediumslateblue-300);
+  display: none;
+  max-width: 100%;
+}
+.joinAsStudent {
+  position: relative;
+  font-size: var(--font-size-3xl);
+  line-height: 22px;
+  font-weight: 500;
+  font-family: var(--text-lg-semibold);
+  color: var(--gray-white);
+  text-align: left;
+  z-index: 1;
+}
+.rectangleGroup {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-12xl) var(--padding-xl) var(--padding-11xl)
+    var(--padding-2xl);
+  background-color: var(--color-mediumslateblue-300);
+  align-self: stretch;
+  border-radius: var(--br-21xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+  white-space: nowrap;
+  max-width: 100%;
+  z-index: 1;
+}
+.rectangleGroup:hover {
+  background-color: var(--color-mediumslateblue-100);
+}
+.figmaFilter {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-28xl);
+}
+.effectEffector,
+.figmaFilter,
+.imageExporter,
+.strokeStylist {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.imageExporter {
+  width: 380px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0 0;
+  box-sizing: border-box;
+  min-width: 380px;
+  margin-left: -38px;
+}
+.effectEffector,
+.strokeStylist {
+  flex-direction: row;
+}
+.effectEffector {
+  width: 1310px;
+  justify-content: flex-start;
+  row-gap: 20px;
+}
+.strokeStylist {
+  width: 1906px;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-53xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-51xl);
+  color: var(--gray-white);
+  font-family: var(--font-caladea);
+}
+@media screen and (max-width: 1425px) {
+  .imageExporter {
+    flex: 1;
+    margin-left: 0;
+  }
+  .effectEffector {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 950px) {
+  .joinOurWorldsContainer {
+    font-size: var(--font-size-37xl);
+    line-height: 64px;
+  }
+  .layerLayouter {
+    gap: 29px 59px;
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .joinOurWorldsContainer {
+    font-size: var(--font-size-23xl);
+    line-height: 48px;
+  }
+  .startLearningBy {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+  .figmaFilter {
+    gap: 23px 47px;
+  }
+  .imageExporter {
+    min-width: 100%;
+  }
+}

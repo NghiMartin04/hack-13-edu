@@ -1,0 +1,171 @@
+.distancingDistributor {
+  position: absolute;
+  top: 902px;
+  left: 153px;
+  border-radius: 50%;
+  background-color: var(--color-mediumslateblue-700);
+  filter: blur(300px);
+  width: 409px;
+  height: 409px;
+}
+.groupIcon {
+  position: absolute;
+  top: 1038px;
+  left: 252px;
+  width: 174.9px;
+  height: 49.6px;
+  z-index: 1;
+}
+.anchoringAnchorChild {
+  position: absolute;
+  top: 1037px;
+  left: 764px;
+  width: 235px;
+  height: 50.8px;
+}
+.anchoringAnchorItem,
+.groupIcon1 {
+  position: absolute;
+  top: 1037px;
+  height: 51.2px;
+}
+.anchoringAnchorItem {
+  left: 511px;
+  width: 169.6px;
+  z-index: 1;
+}
+.groupIcon1 {
+  left: 1083px;
+  width: 227.4px;
+}
+.visibilityValidator {
+  position: absolute;
+  top: 133px;
+  left: 1511px;
+  border-radius: 50%;
+  background-color: var(--color-mediumslateblue-700);
+  filter: blur(300px);
+  width: 602px;
+  height: 602px;
+}
+.scalingScalerIcon {
+  position: absolute;
+  top: 974px;
+  left: 153px;
+  border-radius: var(--br-mini);
+  width: 1614px;
+  height: 166px;
+  z-index: 2;
+}
+.arrowLeftIcon11,
+.arrowLeftIcon12 {
+  position: absolute;
+  top: 1039px;
+  width: 48px;
+  height: 48px;
+  overflow: hidden;
+  z-index: 3;
+}
+.arrowLeftIcon11 {
+  left: 1697px;
+  object-fit: contain;
+}
+.arrowLeftIcon12 {
+  left: 161px;
+}
+.rotationRotator {
+  position: absolute;
+  top: 880.9px;
+  left: 1713.1px;
+  border-radius: var(--br-223xl-5);
+  background-color: var(--color-mediumslateblue-600);
+  width: 436px;
+  height: 659px;
+  transform: rotate(-180deg);
+  transform-origin: 0 0;
+  z-index: 1;
+}
+.sizingSizerIcon {
+  position: absolute;
+  top: 147px;
+  left: 1804px;
+  width: 43.1px;
+  height: 43.1px;
+  object-fit: contain;
+  z-index: 1;
+}
+.positionPositorIcon {
+  position: absolute;
+  top: 179px;
+  left: -78px;
+  width: 129.3px;
+  height: 129.4px;
+  object-fit: contain;
+}
+.blendingBlender {
+  position: absolute;
+  top: -126px;
+  left: -78px;
+  border-radius: 50%;
+  background-color: var(--color-mediumslateblue-700);
+  filter: blur(300px);
+  width: 426px;
+  height: 426px;
+  z-index: 2;
+}
+.icon,
+.wrapperIcon {
+  position: absolute;
+  z-index: 3;
+}
+.icon {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  left: 0;
+  top: 18px;
+  transform: scale(2.562);
+}
+.wrapperIcon {
+  top: 48px;
+  left: 152px;
+  width: 49px;
+  height: 49px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fillFillerIcon,
+.layer2Icon {
+  position: absolute;
+  top: 190px;
+  left: 1096px;
+  width: 609.2px;
+  height: 812.9px;
+  z-index: 3;
+}
+.fillFillerIcon {
+  top: 34px;
+  left: 1919px;
+  width: 0;
+  height: 158.7px;
+  object-fit: contain;
+  z-index: 1;
+}
+.groupIcon2 {
+  position: absolute;
+  top: 1037px;
+  left: 1394px;
+  width: 279px;
+  height: 50.8px;
+  z-index: 3;
+}
+.anchoringAnchor {
+  width: 100%;
+  height: 1311px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  left: 0;
+}

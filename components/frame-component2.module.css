@@ -1,0 +1,457 @@
+.dataWriterParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xl);
+  max-width: 100%;
+}
+.frameChild,
+.maskGroupIcon {
+  align-self: stretch;
+  position: relative;
+}
+.frameChild {
+  height: 683px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-midnightblue);
+  border: 2px solid var(--color-gray-300);
+  box-sizing: border-box;
+  display: none;
+  z-index: 0;
+}
+.maskGroupIcon {
+  height: 268px;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  z-index: 1;
+}
+.frameItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-mediumslateblue-200);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.frameInner {
+  position: absolute;
+  top: 9.5px;
+  left: 11px;
+  border-radius: var(--br-12xs);
+  width: 8px;
+  height: 8.9px;
+  object-fit: contain;
+  z-index: 2;
+}
+.ellipseParent {
+  height: 28px;
+  width: 28px;
+  position: relative;
+}
+.xLesson {
+  position: relative;
+  line-height: 18px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 86px;
+  z-index: 1;
+}
+.xLessonWrapper {
+  flex-direction: column;
+  padding: var(--padding-7xs) 0 0;
+}
+.frameParent1,
+.frameWrapper1,
+.xLessonWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent1 {
+  flex-direction: row;
+  gap: var(--gap-sm);
+}
+.frameWrapper1 {
+  flex-direction: column;
+  padding: var(--padding-11xs) 0 0;
+}
+.rectangleDiv {
+  height: 35px;
+  width: 105px;
+  position: relative;
+  border-radius: var(--br-mid-5);
+  background-color: var(--color-lavender-200);
+  display: none;
+}
+.design {
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 18px;
+  font-weight: 500;
+  font-family: var(--text-lg-semibold);
+  color: var(--color-lavender-100);
+  text-align: left;
+  display: inline-block;
+  min-width: 53px;
+  z-index: 2;
+}
+.frameContainer,
+.frameDiv,
+.rectangleGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.rectangleGroup {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xs) var(--padding-7xl) var(--padding-2xs);
+  background-color: var(--color-lavender-200);
+  border-radius: var(--br-mid-5);
+  justify-content: flex-start;
+  z-index: 1;
+}
+.rectangleGroup:hover {
+  background-color: var(--color-lightsteelblue-200);
+}
+.frameContainer,
+.frameDiv {
+  max-width: 100%;
+}
+.frameDiv {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frameContainer {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 var(--padding-4xs) 0 var(--padding-12xs);
+  box-sizing: border-box;
+}
+.pythonForFinancial {
+  margin: 0;
+  height: 72px;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 40px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.pythonForFinancialAnalysisWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xs) 0 var(--padding-12xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.ellipseIcon,
+.lineDiv {
+  position: relative;
+  z-index: 1;
+}
+.lineDiv {
+  align-self: stretch;
+  height: 1px;
+  border-top: 1px solid var(--color-lavender-300);
+  box-sizing: border-box;
+}
+.ellipseIcon {
+  height: 43px;
+  width: 43px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.adamSmith,
+.pythonDeveloper {
+  position: relative;
+  line-height: 18px;
+  z-index: 1;
+}
+.adamSmith {
+  font-weight: 600;
+  display: inline-block;
+  min-width: 108px;
+}
+.pythonDeveloper {
+  align-self: stretch;
+  font-size: var(--text-sm-medium-size);
+}
+.adamSmithParent {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+}
+.adamSmithParent,
+.ellipseGroup,
+.frameWrapper2 {
+  display: flex;
+  align-items: flex-start;
+}
+.ellipseGroup {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-lgi);
+}
+.frameWrapper2 {
+  height: 59px;
+  width: 201px;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-base);
+  box-sizing: border-box;
+}
+.frameChild1,
+.student {
+  position: relative;
+  z-index: 1;
+}
+.frameChild1 {
+  align-self: stretch;
+  width: 1px;
+  border-right: 1px solid var(--color-lavender-300);
+  box-sizing: border-box;
+}
+.student {
+  line-height: 18px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 96px;
+}
+.studentWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-15xl) 0 0;
+}
+.frameParent4,
+.lineGroup {
+  display: flex;
+  flex-direction: row;
+}
+.lineGroup {
+  height: 83px;
+  width: 132px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-16xl);
+  font-size: var(--font-size-base);
+}
+.frameParent4 {
+  align-self: stretch;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frameChild2 {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-lavender-300);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.lineParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+}
+.enrollNow,
+.groupIcon {
+  position: relative;
+  z-index: 1;
+}
+.groupIcon {
+  height: 17px;
+  width: 104px;
+  min-height: 17px;
+}
+.enrollNow {
+  text-decoration: underline;
+  line-height: 18px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 83px;
+}
+.frameParent5 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-base);
+}
+.frameParent2,
+.frameParent3 {
+  align-self: stretch;
+  flex-direction: column;
+}
+.frameParent3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xl);
+  font-size: var(--text-lg-semibold-size);
+}
+.frameParent2 {
+  gap: var(--gap-25xl);
+  font-size: var(--font-size-11xl);
+}
+.frameGroup,
+.frameParent2,
+.frameWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameGroup {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-16xl);
+}
+.frameWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-23xl) 0 var(--padding-16xl);
+  box-sizing: border-box;
+}
+.functionCreator,
+.functionDeleter {
+  position: absolute;
+  border-radius: 50%;
+}
+.functionCreator {
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-mediumslateblue-700);
+  filter: blur(300px);
+  width: 694px;
+}
+.functionDeleter {
+  top: 693.8px;
+  left: 440.6px;
+  border: 0 solid var(--color-deepskyblue);
+  box-sizing: border-box;
+  width: 222.4px;
+  height: 222.4px;
+  transform: rotate(-150deg);
+  transform-origin: 0 0;
+  z-index: 1;
+}
+.errorChecker {
+  width: 414px;
+  height: 694px;
+  position: absolute;
+  margin: 0 !important;
+  right: -154px;
+  bottom: -412px;
+}
+.rectangleParent {
+  border-radius: var(--br-11xl);
+  background-color: var(--color-midnightblue);
+  border: 2px solid var(--color-gray-300);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-37xl);
+  position: relative;
+  gap: var(--gap-13xl);
+  z-index: 1;
+}
+.frameParent,
+.rectangleParent,
+.variableUpdaterParent {
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.variableUpdaterParent {
+  width: 1614px;
+  display: grid;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-5xl);
+  grid-template-columns: repeat(3, minmax(394px, 1fr));
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-21xl);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-lavender-100);
+  font-family: var(--text-lg-semibold);
+}
+@media screen and (max-width: 1425px) {
+  .variableUpdaterParent {
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(394px, 684px));
+  }
+}
+@media screen and (max-width: 950px) {
+  .pythonForFinancial {
+    font-size: var(--font-size-5xl);
+    line-height: 32px;
+  }
+  .frameWrapper {
+    padding-right: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+  .rectangleParent {
+    gap: 16px 32px;
+    padding-bottom: var(--padding-17xl);
+    box-sizing: border-box;
+  }
+  .variableUpdaterParent {
+    grid-template-columns: minmax(394px, 1fr);
+  }
+  .frameParent {
+    gap: 20px 40px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .frameDiv {
+    flex-wrap: wrap;
+  }
+  .pythonForFinancial {
+    font-size: var(--text-lg-semibold-size);
+    line-height: 24px;
+  }
+  .frameParent4,
+  .frameParent5 {
+    flex-wrap: wrap;
+  }
+  .frameParent2 {
+    gap: 22px 44px;
+  }
+  .frameGroup {
+    gap: 17px 35px;
+  }
+}

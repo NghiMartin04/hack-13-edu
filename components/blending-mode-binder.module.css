@@ -1,0 +1,346 @@
+.icon {
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 18px;
+  transform: scale(2.562);
+}
+.edujar,
+.wrapperIcon {
+  position: relative;
+  z-index: 1;
+}
+.wrapperIcon {
+  height: 49px;
+  width: 49px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.edujar {
+  margin: 0;
+  align-self: stretch;
+  font-size: inherit;
+  line-height: 40px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.containerComposer,
+.shapeStyler {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.containerComposer {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-9xs) 0 0;
+}
+.shapeStyler {
+  width: 285px;
+  height: 49px;
+  flex-direction: row;
+  gap: var(--gap-3xl);
+}
+.veniamQuisNostrud {
+  align-self: stretch;
+  height: 105px;
+  position: relative;
+  font-size: var(--text-lg-semibold-size);
+  line-height: 28px;
+  font-family: var(--text-lg-semibold);
+  color: var(--color-lightsteelblue-100);
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.effectEditor {
+  width: 480px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-42xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-lavender-100);
+}
+.about,
+.course,
+.quickLinks {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.quickLinks {
+  margin: 0;
+  width: 133px;
+  font-size: inherit;
+  line-height: 24px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.about,
+.course {
+  line-height: 28px;
+  font-weight: 500;
+  min-width: 53px;
+}
+.course {
+  min-width: 62px;
+}
+.aboutParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xl);
+}
+.blog,
+.contact {
+  position: relative;
+  line-height: 28px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 39px;
+  z-index: 1;
+}
+.contact {
+  min-width: 69px;
+}
+.queueManager {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-3xl);
+}
+.decisionTree,
+.errorChecker,
+.queueManager {
+  display: flex;
+  align-items: flex-start;
+}
+.errorChecker {
+  width: 69px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+}
+.decisionTree {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--text-lg-semibold-size);
+  color: var(--color-lightsteelblue-100);
+  font-family: var(--text-lg-semibold);
+}
+.imageResizer,
+.inputSplitter {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.inputSplitter {
+  align-self: stretch;
+  gap: var(--gap-31xl);
+}
+.imageResizer {
+  width: 220px;
+  padding: var(--padding-9xl) var(--padding-7xl) 0 0;
+  box-sizing: border-box;
+}
+.contactUs {
+  margin: 0;
+  width: 122px;
+  font-size: inherit;
+  line-height: 24px;
+  font-weight: 700;
+  font-family: inherit;
+  white-space: pre-wrap;
+  display: inline-block;
+  min-width: 122px;
+}
+.contactUs,
+.div,
+.phoneIcon1 {
+  position: relative;
+  z-index: 1;
+}
+.phoneIcon1 {
+  height: 16px;
+  width: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 16px;
+}
+.div {
+  flex: 1;
+  line-height: 18px;
+  font-weight: 500;
+}
+.phoneIcon1Parent {
+  width: 309px;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xl);
+}
+.frameChild {
+  width: 16.3px;
+  height: 13.8px;
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+  z-index: 1;
+}
+.frameWrapper {
+  height: 14.8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+}
+.michelleriveraexamplecom {
+  flex: 1;
+  position: relative;
+  line-height: 18px;
+  font-weight: 500;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+  z-index: 1;
+}
+.frameGroup,
+.frameParent,
+.randomizer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameGroup {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 28.700000000000045px;
+}
+.frameParent,
+.randomizer {
+  flex-direction: column;
+}
+.frameParent {
+  align-self: stretch;
+  height: 69px;
+  gap: var(--gap-19xl);
+}
+.randomizer {
+  flex: 1;
+  padding: var(--padding-7xs) 0 0;
+  box-sizing: border-box;
+  min-width: 208px;
+}
+.addressLocationMapNavigatioIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.ashDrSan {
+  height: 44px;
+  width: 265px;
+  position: relative;
+  line-height: 25px;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.imageDetector,
+.randomizerParent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.randomizerParent {
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-5xl-5);
+  text-align: left;
+  font-size: var(--text-lg-semibold-size);
+  color: var(--color-lightsteelblue-100);
+  font-family: var(--text-lg-semibold);
+}
+.imageDetector {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-24xl);
+}
+.blendingModeBinder,
+.imageDetectorWrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.imageDetectorWrapper {
+  width: 654px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-5xl) 0 0;
+  box-sizing: border-box;
+}
+.blendingModeBinder {
+  width: 1620px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--font-size-6xl);
+  color: var(--gray-white);
+  font-family: var(--font-caladea);
+}
+@media screen and (max-width: 1900px) {
+  .blendingModeBinder {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 950px) {
+  .edujar {
+    font-size: var(--font-size-19xl);
+    line-height: 32px;
+  }
+  .effectEditor {
+    gap: 30px 61px;
+  }
+  .randomizerParent {
+    flex-wrap: wrap;
+  }
+  .imageDetector {
+    gap: 21px 43px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .edujar {
+    font-size: var(--font-size-10xl);
+    line-height: 24px;
+  }
+  .contactUs,
+  .quickLinks {
+    font-size: var(--font-size-xl);
+    line-height: 19px;
+  }
+  .frameParent {
+    gap: 19px 38px;
+  }
+}
